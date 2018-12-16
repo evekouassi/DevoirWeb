@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: 'Roboto Slab', serif;
+}
+
+a, a:hover {
+
+	text-decoration: none;
+}
+
+/*header*/
+
+.header{
+	background-color: #F6F93A;
+	height: 70px;
+	line-height: 70px;
+	font-family: 'Passion One', cursive;
+}
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.container-fluid{
+	padding: 0;
+	margin: 0;
+
+}
+.container p{
+	color: #01034F;
+}
+
+.container h2{
+	color: #01034F;
+}
+
+.container h3{
+	color: #01034F;
+}
+
+
+.separator{
+	height: 3px;
+	width: 3%;
+	border: none;
+	box-shadow: none;
+	background-color: #F6F93A;
+	font-family: 'Hind Guntur', sans-serif;
+	font-family: 'Passion One', cursive;
+
+}
+
+.menu{
+	float: right;
+}
+
+.menu a{
+	color: white;
+	margin-right: 20px;
+}
+
+.menu a:hover{
+	color: #070707;
+}
+/*banniere*/
+
+.banner{
+	width: 100%;
+	max-width: 100%;
+}
+
+.ban{
+
+    width: 100%;
+	max-width: 100%;
+	position: relative;	
+}
+
+
+
+.inner-banner{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+
+}
+
+.ban img{
+	width: 100%;
+	max-width: 100%;
+
+}
+
+.inner-banner h1{
+	color: black;
+	text-shadow: 1px 1px 20px #070707;  
+}
+
+.inner-banner .btn-custom{
+	background-color: #F6F93A;
+	color: black;
+}
+
+.inner-banner .btn-custom:hover{
+	background-color: #070707;
+}
+
+
+
+/*about*/
+
+#about{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.about article{
+	margin-top: 10%;
+	 margin-bottom: 10%;
+}
+
+.about article h2{
+	text-align: center;
+}
+
+/*portfolio*/
+
+.portfolio{
+	background-color: #C9CFCD;
+	
+
+	}
+
+#portfolio{
+	text-align: center;
+}
+
+.portfolio .item-folio{
+	height: 700px;
+	background-color: #F6F93A;
+}
+/*contact*/
+
+.footer{
+	background-color: #01034F;
+	height: 700px;
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#contact{
+	color: whhite;
+	text-align: center;
+}
+
+.formulaireContact{
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+input{
+	margin-bottom: 70px;
+}
+
+input[type=text]{
+	height: 50px;
+	width: 500px;
+	border: none;
+}
+
+input[type=email]{
+
+	height: 50px;
+	width: 500px;
+	border: none;
+}
+
+textarea{
+	width: 500px;
+	height: 100px;
+	resize: vertical;
+}
+
+.btn-custom{
+	background-color: #F6F93A;
+	color: black;
+}
